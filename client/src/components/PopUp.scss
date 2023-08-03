@@ -1,0 +1,107 @@
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+
+    .popup {
+        width: 400px;
+        background-color: #343434;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+        .popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #343434;
+            border-radius: 5px 5px 0 0;
+
+            h2 {
+                margin: 10px;
+            }
+
+            .close-button {
+                background: none;
+                border: none;
+                cursor: pointer;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .popup-content {
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+
+        input,
+        textarea {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: 'Raleway';
+            outline: none;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        .status-select {
+            display: flex;
+            align-items: center;
+
+            label {
+                margin-right: 10px;
+            }
+
+            select {
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                font-family: 'Raleway';
+                outline: none;
+                font-size: 14px;
+            }
+        }
+    }
+
+    .popup-footer {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        background-color: #343434;
+        border-radius: 0 0 5px 5px;
+        margin-bottom: 10px;
+
+        .save-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 14px;
+            border-radius: 5px;
+            font-family: 'Raleway';
+            transition: filter 0.3s ease-out;
+
+            &:hover {
+                filter: drop-shadow(2px 2px 5px #6495ED);
+            }
+        }
+    }
+}

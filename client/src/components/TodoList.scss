@@ -1,0 +1,55 @@
+.todo-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.todo-item {
+    border-radius: 5px;
+    background: #373737;
+    margin-top: 20px;
+    padding: 10px;
+    color: #d8d8d8;
+    font-family: Raleway;
+    position: relative;
+
+    .task-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .task-description {
+        margin-top: 5px;
+        color: #d5d5d5;
+    }
+
+    .status-text {
+        text-align: center;
+        color: #d5d5d5;
+    }
+
+    .actions {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        display: flex;
+
+        button {
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            margin-left: 5px;
+            transition: all 0.2s ease-out;
+
+            &:hover {
+                color: #ffbf00;
+                /* Yellow color on hover for Edit button */
+            }
+
+            &.delete-button:hover {
+                color: #de3163;
+                /* Pink color on hover for Delete button */
+            }
+        }
+    }
+}
