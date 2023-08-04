@@ -6,9 +6,7 @@ const connectDB = (url) => {
     mongoose.connect(url, {
         useNewUrlParser: true,
         useUnifiedTopology: true,
-        useCreateIndex: true,
     })
-
         .then(() => console.log('⚡Bolt touched the server⚡'))
         .catch((err) => console.log(err))
 }
