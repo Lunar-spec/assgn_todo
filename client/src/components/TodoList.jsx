@@ -17,7 +17,7 @@ const TodoList = () => {
     const fetchTasks = async () => {
         try {
             const apiUrl = import.meta.env.VITE_BACKEND_URL;
-            const response = await axios.get(`${apiUrl}/api`);
+            const response = await axios.get(`${apiUrl}/`);
             setTasks(response.data);
         } catch (error) {
             console.error('Error fetching tasks:', error);

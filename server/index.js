@@ -11,7 +11,7 @@ const app = express();
 app.use(cors())
 app.use(express.json())
 
-app.use('/api', todoRoutes);
+app.use('/', todoRoutes);
 
 app.get('/', async (req, res) => {
     res.send('The lighting has struck ⚡');

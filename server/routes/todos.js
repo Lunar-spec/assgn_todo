@@ -1,6 +1,5 @@
 import express from 'express'
 import Todo from '../mongodb/models/todo.js'
-import mongoose from 'mongoose'
 
 const router = express.Router()
 
