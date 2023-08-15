@@ -1,4 +1,4 @@
-// components/PopUp.jsx
+/* eslint-disable react/prop-types */
 import { useState } from 'react';
 import './PopUp.scss';
 
@@ -12,7 +12,7 @@ const PopUp = ({ task, onClose, onSave }) => {
 
     const handleSaveChanges = () => {
         onSave(editedTask);
-    };
+    };  
 
     return (
         <div className="popup-container">

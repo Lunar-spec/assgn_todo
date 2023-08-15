@@ -12,7 +12,7 @@ const TodoList = () => {
 
     useEffect(() => {
         fetchTasks();
-    }, []);
+    }, [tasks]);
 
     const fetchTasks = async () => {
         try {
