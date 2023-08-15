@@ -41,18 +41,18 @@
             margin-left: 5px;
             transition: all 0.2s ease-out;
 
-            &:hover {
+            .edit-button:hover {
                 color: #ffbf00;
                 filter: drop-shadow(0 0 10px #ffbf00);
             }
 
             .delete-button {
                 cursor: not-allowed;
-                
-                &:hover {
-                    color: #de3163;
-                    filter: drop-shadow(0 0 10px #de3163);
-                }
+
+                // &:hover {
+                //     color: #de3163;
+                //     filter: drop-shadow(0 0 10px #de3163);
+                // }
             }
         }
     }
