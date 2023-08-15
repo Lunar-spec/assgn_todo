@@ -70,7 +70,7 @@ const TodoList = () => {
                         <button className="edit-button" onClick={() => handleEdit(task._id)}>
                             <EditIcon />
                         </button>
-                        <button className="delete-button" onClick={() => handleDelete(task._id)}>
+                        <button className="delete-button" onClick={() => handleDelete(task._id)} disabled={true}>
                             <DeleteIcon />
                         </button>
                     </div>

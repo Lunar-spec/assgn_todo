@@ -46,10 +46,13 @@
                 filter: drop-shadow(0 0 10px #ffbf00);
             }
 
-            &.delete-button:hover {
-                color: #de3163;
-                filter: drop-shadow(0 0 10px #de3163);
-                /* Pink color on hover for Delete button */
+            .delete-button {
+                cursor: not-allowed;
+                
+                &:hover {
+                    color: #de3163;
+                    filter: drop-shadow(0 0 10px #de3163);
+                }
             }
         }
     }
