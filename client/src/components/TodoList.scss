@@ -43,7 +43,7 @@
 
             &:hover {
                 color: #ffbf00;
-                /* Yellow color on hover for Edit button */
+                filter: drop-shadow(0 0 10px #ffbf00);
             }
 
             &.delete-button:hover {
