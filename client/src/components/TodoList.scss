@@ -37,11 +37,11 @@
         button {
             background: transparent;
             border: none;
-            cursor: pointer;
             margin-left: 5px;
             transition: all 0.2s ease-out;
 
             .edit-button:hover {
+                cursor: pointer;
                 color: #ffbf00;
                 filter: drop-shadow(0 0 10px #ffbf00);
             }
