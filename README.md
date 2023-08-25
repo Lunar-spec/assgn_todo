@@ -16,3 +16,12 @@ Organized by Status: Tasks are grouped by their status, making it a breeze to se
 
 Hosted here:
 https://todomgt.netlify.app/
+
+![image](https://github.com/Lunar-spec/assgn_todo/assets/63588348/3bcd7735-a641-4f03-9a3e-6fd376eab83e)
+![image](https://github.com/Lunar-spec/assgn_todo/assets/63588348/cd3db789-edfc-4bea-b8c0-803100d04dc8)
+![image](https://github.com/Lunar-spec/assgn_todo/assets/63588348/98836cf8-9560-42d6-9654-1f1a8db1dc34)
+![image](https://github.com/Lunar-spec/assgn_todo/assets/63588348/27c9f9b4-bf70-48b3-9aac-65aa846b815e)
+
+
+
+
