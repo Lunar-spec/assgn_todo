@@ -1,4 +1,4 @@
 # assgn_todo
-Assignment Todo Management
+Todo Management
 Hosted here:
 https://todomgt.netlify.app/
